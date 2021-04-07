@@ -1,0 +1,19 @@
+{
+  "name": "node-server-template",
+  "version": "1.0.0",
+  "description": "Just universal server",
+  "repository": "https://github.com/Vladinho10/node-server-template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js src/index",
+    "test": "mocha ./tests"
+  },
+  "author": "Beatriz Domínguez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4"
+  }
+}
